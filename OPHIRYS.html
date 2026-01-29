@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OPHIRYS — site portfolio</title>
+  <link rel="stylesheet" href="OPHIRYS.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="c:\Users\TOSHIBA\Downloads\LOGO_Sukuna-removebg-preview.png" alt="Logo" class="logo">
+        <span class="brand-name">OPHIRYS</span>
+      </div>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact" class="btn-outline">Contact</a>
+      </nav>
+      <button class="mobile-toggle" aria-label="menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Design moderne. Impact immédiat.</h1>
+          <p class="lead">Créons des expériences visuelles uniques qui parlent au cœur et attirent l'œil. Prototype, identité et site prêt à l'emploi.</p>
+          <div class="hero-cta">
+            <a href="#showcase" class="btn-primary">Voir la collection</a>
+            <a href="#contact" class="btn-ghost">Nous contacter</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="phone-mock">
+            <!-- placeholder for a mockup image -->
+            <img src="c:\Users\TOSHIBA\Downloads\Gemini_Generated_Image_gd6dmvgd6dmvgd6d-removebg-preview.png" alt="mockup" />
+            <div class="badge">Presentation</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="section features">
+      <div class="container">
+        <h2 class="section-title">Pourquoi OPHIRYS ?</h2>
+        <p class="section-sub">Design réfléchi, exécution soignée — des solutions pensées pour convertir.</p>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Design centré utilisateur</h3>
+            <p>Nous appliquons des principes psychologiques pour guider l'attention et optimiser l'engagement.</p>
+          </article>
+
+          <article class="card">
+            <h3>Performances & Responsive</h3>
+            <p>Pages légères, chargement rapide et layouts adaptés à tous les écrans.</p>
+          </article>
+
+          <article class="card">
+            <h3>Branding renforcé</h3>
+            <p>Identité visuelle cohérente (couleurs, typo, iconographie) pour marquer les esprits.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SHOWCASE -->
+    <section id="showcase" class="section showcase">
+      <div class="container">
+        <h2 class="section-title">Nos réalisations</h2>
+        <div class="grid">
+          <figure class="showcase-item">
+            <img src="c:\Users\TOSHIBA\Documents\Documents\PORTE FOLIO\photoshop\illu\td\NOVEL AN.png" alt="Projet 1">
+            <figcaption>Création d'affiche (concept)</figcaption>
+          </figure>
+          <figure class="showcase-item">
+            <img src="c:\Users\TOSHIBA\Documents\Documents\PORTE FOLIO\photoshop\illu\CHARTE OPHIRYS\07.jpg" alt="Projet 2">
+            <figcaption>Logo et charte graphique — OPHIRYS</figcaption>
+          </figure>
+          <figure class="showcase-item">
+            <img src="c:\Users\TOSHIBA\Pictures\p.png" alt="Projet 3">
+            <figcaption>Mini site e-commerce</figcaption>
+          </figure>
+          <figure class="showcase-item">
+            <img src="c:\Users\TOSHIBA\Documents\Documents\PORTE FOLIO\photoshop\illu\pub.png" alt="Projet 4">
+            <figcaption>Formation en infographie</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing" class="section pricing">
+      <div class="container">
+        <h2 class="section-title">Formules</h2>
+        <div class="pricing-grid">
+          <div class="plan">
+            <h3>Starter</h3>
+            <p class="price">5000<span>F</span></p>
+            <ul>
+              <li>affiche</li>
+              <li>LOGO simple</li>
+              <li>retouche photo</li>
+            </ul>
+            <a href="#contact" class="btn-primary">Choisir</a>
+          </div>
+
+          <div class="plan featured">
+            <h3>Pro</h3>
+            <p class="price">50 000<span>F</span></p>
+            <ul>
+              <li>LOGO + Charte graphique</li>
+              <li>OÙ Site web simple</li>
+            </ul>
+            <a href="#contact" class="btn-primary">Choisir</a>
+          </div>
+
+          <div class="plan">
+            <h3>Brand</h3>
+            <p class="price">150 000<span>F</span></p>
+            <ul>
+              <li>Création de site web </li>
+              <li>Logo</li>
+              <li>charte graphique</li>
+            </ul>
+            <a href="#contact" class="btn-primary">Choisir</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p>Prêt à lancer votre projet ? Écris-nous.</p>
+        <form class="contact-form" action="#" method="post">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Nom complet" required>
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <textarea name="message" placeholder="Décris ton projet..." rows="5" required></textarea>
+          <div class="form-actions">
+            <button type="submit" class="btn-primary">Envoyer</button>
+            <button type="reset" class="btn-ghost">Effacer</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="contact-section">
+  <h2>Contact</h2>
+  <div class="contact-grid">
+
+    <div class="contact-box">
+      <h3>📞 Téléphone</h3>
+      <p><a href="tel:+2250700000000">05 03 01 39 47</a></p>
+    </div>
+
+    <div class="contact-box">
+      <h3>📧 Email</h3>
+      <p><a href="mailto:contact@exemple.com">yaoophir123@gmail.com</a></p>
+    </div>
+
+    <div class="contact-box">
+      <h3>💬 WhatsApp</h3>
+      <p><a href="https://wa.me/2250700000000">05 03 01 39 47</a></p>
+    </div>
+
+  </div>
+</section>
+
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© 2025 OPHIRYS</div>
+      <div class="socials">
+        <a href="#" aria-label="instagram">IG</a>
+        <a href="#" aria-label="facebook">FB</a>
+        <a href="#" aria-label="twitter">TW</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // simple mobile menu toggle
+    const toggle = document.querySelector('.mobile-toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+
+    // simple reveal on scroll
+    const reveals = document.querySelectorAll('.card, .showcase-item, .plan');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) e.target.classList.add('revealed');
+      });
+    }, {threshold:0.15});
+    reveals.forEach(r => observer.observe(r));
+  </script>
+</body>
+</html>
